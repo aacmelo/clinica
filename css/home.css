@@ -1,0 +1,95 @@
+html, body {
+    margin: 0;
+}
+
+body {
+    background-color: #1d1c1c;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+   width: 990px;
+   display: flex;
+   margin: 0 auto;
+   background-color: black;
+}
+
+.menu {
+    width: 170px;
+    background-color: aqua;
+    padding: 100px 10px 0px;    
+}
+
+.logotipo {     
+    margin: -58% -1% 0%;
+    text-align: left;
+ }
+ 
+.bannermenu{
+    margin:-1px;
+    text-align:left;
+}
+
+.header {
+    background-color: rgb(5, 108, 108);
+    height: 152px;
+    width: 800px;
+}
+
+.bannerhome {
+    margin: auto;
+    display: block;  
+}
+
+.main {
+    display:flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.content {
+    background-color:rgb(33, 90, 196);
+    color: black;
+    min-height: 100px;  
+    padding: 25px;
+}
+
+.consultoriohome {
+    margin: -30% -0% 0%;
+    text-align:right;  
+}
+
+.footer{
+    background-color: black;
+    height: 85px;
+    color:white;
+}
+
+.home{
+    text-align:left;    
+    padding: 30px 50px 0px; 
+}
+
+.clinica {
+    margin-top: -5%;
+    padding: 5px 140px 0px;
+}
+
+.atendimento {
+    margin-top: -5%;
+    padding: 5px 240px 0;
+}
+
+.contato {
+    margin-top: -5%;
+    padding: 5px 370px 0;
+}
+
+.developer {
+    color:white;
+    text-align: right;
+    padding: 4px 15px 0px;
+}
+
+   
