@@ -154,6 +154,10 @@ tr:hover{
         height: 0px;
     }
 
+    body{
+        height: 1675px;
+    }
+    
     header{
         margin: 2%;
         width: 345px;

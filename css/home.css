@@ -131,6 +131,10 @@ section {
     html{
       height: 0px;
     }
+
+    body{
+      height: 1535px;
+    }
     
     header{
       margin: 2%;

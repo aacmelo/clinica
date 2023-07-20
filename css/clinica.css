@@ -137,6 +137,10 @@ footer{
         height: 0px;
     }
 
+    body{
+        height: 1575px;
+    }
+    
     header{
         margin: 2%;
         width: 345px;
