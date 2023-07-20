@@ -133,6 +133,10 @@ footer{
         grid-template-areas: "cabecalho" "barra-lateral" "secao" "rodape";
     }
 
+    html{
+        height: 0px;
+    }
+
     header{
         margin: 2%;
         width: 345px;

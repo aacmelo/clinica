@@ -128,6 +128,10 @@ section {
         grid-template-areas: "cabecalho" "barra-lateral" "secao" "rodape";
     }
 
+    html{
+      height: 0px;
+    }
+    
     header{
       margin: 2%;
       width: 345px;
@@ -179,6 +183,7 @@ section {
         display: flex;
         flex-wrap: wrap;
         text-align: center;
+        border: 1px solid white;
     }
 
     .footer{
@@ -191,10 +196,3 @@ section {
       margin: 5%;
     }
   }
-
-
-
-  
-
-
-  
