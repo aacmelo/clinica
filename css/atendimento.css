@@ -227,4 +227,75 @@ tr:hover{
     }
 }
 
+@media(min-width: 720px) and (max-width: 768px){
+    .principal{
+      grid-template-columns: 100%;
+      grid-template-areas: "cabecalho" "barra-lateral" "secao" "rodape";
+    }
+  
+    html{
+      height: 0px;
+    }
+  
+    body{
+      height: 515px;
+    }
+  
+    header{
+      margin: 2%;
+      width: 693px;
+      height: 105px;
+    }
+  
+    .logotipo{
+      margin: 0px 1px;
+      width: 120px;
+      height: 100px;
+    }
+  
+    .banner{
+      margin: 1px -5px;
+      width: 570px;
+    }
+  
+    aside{
+      margin: -5px 14px;
+      width: 120px;
+      height: 650px;
+    } 
+  
+    .menu{
+      margin: 10px -20px;
+      width: 80px;
+      font-size: 13px; 
+    }
+  
+    .bannermenu{  
+      margin: 0px 5px;
+      width: 110px;
+      height: 560px;
+    }
+  
+    section{
+      margin: -7px 143px;
+      width: 563px;
+      height: 650px;
+      font-size: 14px; 
+    }
+    
+    .consultoriohome{
+      margin: 0px 160px;
+    }
+  
+    .footer{
+      margin: 230px 13px;
+      width: 693px;
+    }
+  
+    .developer{
+      margin: -11px 165px;
+      font-size: 10px;
+    }
+}
+
 

@@ -204,3 +204,76 @@ footer{
         margin: 5%;
     }
 }
+
+@media(min-width: 720px) and (max-width: 768px){
+    .principal{
+      grid-template-columns: 100%;
+      grid-template-areas: "cabecalho" "barra-lateral" "secao" "rodape";
+    }
+  
+    html{
+      height: 0px;
+    }
+  
+    body{
+      height: 515px;
+    }
+  
+    header{
+      margin: 2%;
+      width: 693px;
+      height: 105px;
+    }
+  
+    .logotipo{
+      margin: 0px 1px;
+      width: 120px;
+      height: 100px;
+    }
+  
+    .banner{
+      margin: 1px -5px;
+      width: 570px;
+    }
+  
+    aside{
+      margin: -5px 14px;
+      width: 120px;
+      height: 570px;
+    } 
+  
+    .menu{
+      margin: 10px -20px;
+      width: 80px;
+      font-size: 13px; 
+    }
+  
+    .bannermenu{  
+      margin: 0px 5px;
+      width: 110px;
+      height: 480px;
+    }
+  
+    section{
+      margin: -356px 143px;
+      width: 563px;
+      height: 570px;
+      font-size: 14px; 
+    }
+    
+    .clinicahome{
+      margin: 0px 180px;
+    }
+  
+    .footer{
+      margin: 150px 13px;
+      width: 693px;
+    }
+  
+    .developer{
+      margin: -11px 165px;
+      font-size: 10px;
+    }
+  }
+
+
