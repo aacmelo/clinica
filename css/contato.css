@@ -154,7 +154,7 @@ footer{
     margin: 5.7% -17%;
 }
 
-@media (max-width: 360px),(max-width: 720px){
+@media (min-width: 360px) and (max-width: 720px){
     .principal{
         grid-template-columns: 100%;
         grid-template-areas: "cabecalho" "barra-lateral" "secao" "rodape";
