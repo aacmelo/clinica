@@ -328,6 +328,12 @@ footer{
         margin: 10px 120px;
     }
 
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
     .footer{
       margin: 430px 13px;
       width: 693px;

@@ -286,6 +286,12 @@ tr:hover{
     .consultoriohome{
       margin: 0px 160px;
     }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
   
     .footer{
       margin: 230px 13px;

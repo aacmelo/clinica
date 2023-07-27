@@ -262,6 +262,12 @@ section {
     margin: 0px 160px;
   }
 
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
   .footer{
     margin: 150px 13px;
     width: 693px;

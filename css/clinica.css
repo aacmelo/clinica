@@ -264,6 +264,12 @@ footer{
     .clinicahome{
       margin: 0px 180px;
     }
+
+    footer{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
   
     .footer{
       margin: 150px 13px;
